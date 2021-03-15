@@ -1,0 +1,162 @@
+body{
+    background-image: url(fondo.jpg);
+}
+
+
+h2 {
+    text-align: center;
+    font-family: arial;
+    font-style: italic;
+    font-size: 35px;
+    margin: 20px;
+}
+
+
+section {
+    width: 400px;
+    height: 390px;
+    margin: 10px auto;
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+form{
+    margin: 20px 20px 20px 20px;
+}
+
+footer{
+    margin: 10px;
+    text-align: center;
+}
+
+input:focus {
+    background-color: powderblue;
+}
+
+label {
+    font-size: 18px;
+    font-family: arial;
+    font-style: italic;
+    text-align: center;
+}
+
+#pais {
+    margin-right: 15px;
+}
+
+a {
+    font-size: 18px;
+    font-family: arial;
+    text-align: center;
+}
+
+select {
+    border:1px;
+    border-radius: 8px;
+    border-bottom-width: medium;
+    border-right-width: medium;
+    border-color: black;
+    text-align: center;
+    width: 275px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-style: solid;
+}
+
+input {
+    width: 320px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 80px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: snow;
+    border: 1px solid black;
+    border-right-width: medium;
+    border-bottom-width: medium;
+}
+
+p input{
+    background-color: #BDBDBD;
+    border-radius: 10px;
+    border-width: medium;
+    border-color:black;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fondo.jpg);
+}
+
+
+header{
+    width: 100%;
+    background: black;
+    height: 70px;
+}
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.logo p a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color:#fff;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.imagen img{
+    display: inline-block;
+    width: 40%;
+    padding-top: 100px;
+    padding-top: 100px;
+    display:block;
+    margin:auto;
+}

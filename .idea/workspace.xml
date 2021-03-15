@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5947f32-e9dc-493f-ba9f-2d4f6520298b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProjectId" id="1m1IJFsSNzbzQETAdjCxKUDGexi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\foro\sql" />
+      <recent name="C:\xampp\htdocs\foro\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\foro\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5947f32-e9dc-493f-ba9f-2d4f6520298b" name="Default Changelist" comment="" />
+      <created>1608654596987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608654596987</updated>
+      <workItem from="1608654598011" duration="10726000" />
+      <workItem from="1608666183738" duration="1161000" />
+      <workItem from="1608667373071" duration="21000" />
+      <workItem from="1609333338448" duration="6000" />
+      <workItem from="1609347415805" duration="4000" />
+      <workItem from="1609347959248" duration="7000" />
+      <workItem from="1609348013851" duration="6000" />
+      <workItem from="1610644407658" duration="1187000" />
+      <workItem from="1610647326975" duration="634000" />
+      <workItem from="1611248848333" duration="1622000" />
+      <workItem from="1611592618897" duration="3000" />
+      <workItem from="1611821851704" duration="1574000" />
+      <workItem from="1614586826854" duration="9434000" />
+      <workItem from="1614597086592" duration="1408000" />
+      <workItem from="1615831720327" duration="302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" width="816" height="729" key="#Intentions" timestamp="1611249209313">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1611249209313" />
+    <state x="868" y="169" key="#PHP" timestamp="1608656443868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="868" y="169" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1608656443868" />
+    <state x="752" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608660050978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608660050978" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608666587169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608666587169" />
+    <state x="1059" y="240" key="FileChooserDialogImpl" timestamp="1614589200956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1059" y="240" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614589200956" />
+    <state x="1340" y="248" key="NewPhpClassDialog" timestamp="1608657338353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1340" y="248" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608657338353" />
+    <state x="995" y="450" key="NewPhpFileDialog" timestamp="1614593820409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="995" y="450" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614593820409" />
+  </component>
+</project>
