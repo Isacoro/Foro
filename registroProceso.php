@@ -2,16 +2,15 @@
 session_start();
 include_once 'model/conexion.php';
 
-$usuario = $_POST['txtNombre'];
-$email = $_POST ['txtEmail'];
-$password = $_POST['txtPassword'];
+$usuario = $_POST['nombre'];
+$email = $_POST ['email'];
+$password = $_POST['password'];
 
-/** @var TYPE_NAME $bd */
-$sentencia = $bd->prepare('INSERT INTO usuarios(nombre, password, email) VALUES(?,?,?)');
+$sentencia = $bd->prepare('INSERT INTO usuario(nombre, password, email) VALUES(?,?,?)');
 $resultado = $sentencia->execute([$usuario, $password, $email]);
 
 if($resultado === true){
-    header('Location: foro.php');
+    header('Location: index.php');
 
 }else{
     echo "No se ha podido hacer el registro, inténtalo de nuevo";

@@ -1,5 +1,5 @@
 <?php
-$nombrebd = 'foro';
+$nombrebd = 'miforo';
 $usuario = 'root';
 $password = '';
 

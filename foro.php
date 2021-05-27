@@ -1,3 +1,8 @@
+<?php
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -12,9 +17,10 @@
     ?>
 </header>
 <body>
-<h1 style="text-align: center; margin-top: 50px">Lista de temas</h1>
 
-<div style="padding: 20px; margin: 150px; margin-bottom: 150px; border-style: double">
+<h2 style="text-align: center; margin-top: 50px">Lista de temas</h2>
+
+<div style="padding: 20px; margin: 150px; border-style: double">
 
 <a href='temaLibros.php'><h2>Ver tema Libros</h2></a></p>
 <a href='temaJuegos.php'><h2>Ver tema Juegos</h2></a></p>

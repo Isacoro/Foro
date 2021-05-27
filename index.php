@@ -18,7 +18,7 @@ session_start();
     ?>
 </header>
 <section>
-    <form method="POST" action="loginProceso.php">
+    <form method="post" action="loginProceso.php">
 
         <h2>Iniciar Sesión</h2>
 
@@ -28,7 +28,7 @@ session_start();
         <p><input type="submit" value="Iniciar Sesión"></p>
     </form>
 </section>
-<footer>
+<footer style="margin-top: 50px">
     <a href="#">Términos y condiciones de uso</a><br>
     <label>&reg; IRC</label>
 </footer>

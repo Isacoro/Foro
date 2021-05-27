@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5947f32-e9dc-493f-ba9f-2d4f6520298b" name="Default Changelist" comment="" />
+    <list default="true" id="a5947f32-e9dc-493f-ba9f-2d4f6520298b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mensajeProcesoJuegos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mensajeProcesoLibros.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mensajeProcesoMusica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mensajeProcesoPeliculas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuevoMensajeJuegos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuevoMensajeLibros.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuevoMensajeMusica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuevoMensajePeliculas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/miforo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foro.php" beforeDir="false" afterPath="$PROJECT_DIR$/foro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginProceso.php" beforeDir="false" afterPath="$PROJECT_DIR$/loginProceso.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mensaje.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mensajeProceso.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/conexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro.php" beforeDir="false" afterPath="$PROJECT_DIR$/registro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registroProceso.php" beforeDir="false" afterPath="$PROJECT_DIR$/registroProceso.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/foro.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temaJuegos.php" beforeDir="false" afterPath="$PROJECT_DIR$/temaJuegos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temaLibros.php" beforeDir="false" afterPath="$PROJECT_DIR$/temaLibros.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temaMusica.php" beforeDir="false" afterPath="$PROJECT_DIR$/temaMusica.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temaPeliculas.php" beforeDir="false" afterPath="$PROJECT_DIR$/temaPeliculas.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +59,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1m1IJFsSNzbzQETAdjCxKUDGexi" />
   <component name="ProjectViewState">
@@ -24,19 +69,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\foro" />
+      <recent name="C:\xampp\htdocs\foro\procesos" />
+      <recent name="C:\xampp\htdocs\foro\vistas" />
       <recent name="C:\xampp\htdocs\foro\sql" />
       <recent name="C:\xampp\htdocs\foro\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\foro" />
+      <recent name="C:\xampp\htdocs\foro\sql" />
       <recent name="C:\xampp\htdocs\foro\css" />
     </key>
   </component>
@@ -62,41 +116,63 @@
       <workItem from="1611821851704" duration="1574000" />
       <workItem from="1614586826854" duration="9434000" />
       <workItem from="1614597086592" duration="1408000" />
-      <workItem from="1615831720327" duration="302000" />
+      <workItem from="1615831720327" duration="1836000" />
+      <workItem from="1617181066566" duration="8000" />
+      <workItem from="1621159395811" duration="5329000" />
+      <workItem from="1621164775141" duration="196000" />
+      <workItem from="1621238211952" duration="4560000" />
+      <workItem from="1621842074691" duration="3269000" />
+      <workItem from="1621845574502" duration="5013000" />
+      <workItem from="1621872690859" duration="7856000" />
+      <workItem from="1621956602828" duration="620000" />
+      <workItem from="1621957232838" duration="1596000" />
+      <workItem from="1621958843834" duration="357000" />
+      <workItem from="1621959208942" duration="930000" />
+      <workItem from="1621960150046" duration="2104000" />
+      <workItem from="1621962272359" duration="6000" />
+      <workItem from="1621962373157" duration="1418000" />
+      <workItem from="1621963917361" duration="1716000" />
+      <workItem from="1622017357246" duration="1870000" />
+      <workItem from="1622019242581" duration="467000" />
+      <workItem from="1622020502106" duration="626000" />
+      <workItem from="1622021154564" duration="219000" />
+      <workItem from="1622021380285" duration="3189000" />
+      <workItem from="1622024587673" duration="381000" />
+      <workItem from="1622101020185" duration="5713000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" width="816" height="729" key="#Intentions" timestamp="1611249209313">
+    <state x="865" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621876172391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1611249209313" />
-    <state x="868" y="169" key="#PHP" timestamp="1608656443868">
+    <state x="865" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621876172391" />
+    <state x="1059" y="240" key="FileChooserDialogImpl" timestamp="1621963793793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="868" y="169" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1608656443868" />
-    <state x="752" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608660050978">
+    <state x="1059" y="240" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621963793793" />
+    <state x="995" y="450" key="NewPhpFileDialog" timestamp="1621959497342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608660050978" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608666587169">
+    <state x="995" y="450" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621959497342" />
+    <state x="555" y="115" key="SettingsEditor" timestamp="1622021353071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608666587169" />
-    <state x="1059" y="240" key="FileChooserDialogImpl" timestamp="1614589200956">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1059" y="240" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614589200956" />
-    <state x="1340" y="248" key="NewPhpClassDialog" timestamp="1608657338353">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1340" y="248" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608657338353" />
-    <state x="995" y="450" key="NewPhpFileDialog" timestamp="1614593820409">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="995" y="450" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614593820409" />
+    <state x="555" y="115" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1622021353071" />
   </component>
 </project>

@@ -17,32 +17,33 @@
 <h1 style="text-align: center; margin-top: 50px">TEMA PELÍCULAS</h1>
 
 <?php
+session_start();
 include "model/conexion.php";
 
 
 try{
-    /** @var TYPE_NAME $bd */
-    $sentencia = $bd->prepare('SELECT u.nombre, titulo, mensaje  FROM temas t INNER JOIN usuarios u on t.id_usuario = u.id_usuario WHERE tema = "Películas"');
+
+    $sentencia = $bd->prepare('SELECT u.nombre, titulo, mensaje  FROM mensaje m INNER JOIN usuario u on m.id_usuario = u.id_usuario WHERE id_tema = "3"');
     $sentencia->execute();
 
-    $resultado = $sentencia->fetchAll(PDO::FETCH_ASSOC);
-   echo '<div style="padding: 10px; margin: 50px; margin-bottom: 150px; border-style: double">';
-        foreach ($resultado as $temas){
-        echo '<h3><br>' . $temas['titulo'] . '</h3>';
-        echo $temas['mensaje'] . '<br>';
-        echo '<div style="margin-top: 10px">';
-        echo " Tema abierto por: " . $temas['nombre'] .  '</h3><br>';
-    }
+    $resultado = $sentencia->rowCount();
+
 }catch (PDOException $e){
     echo "ERROR: " . $e->getMessage();
 }
+
+   echo '<div style="padding: 10px; margin: 50px; margin-bottom: 150px; border-style: double">';
+    while($resultado = $sentencia->fetchAll(PDO::FETCH_ASSOC)){
+        foreach ($resultado as $mensaje){
+            echo '<h3><br>' . $mensaje['titulo'] . '</h3>';
+            echo $mensaje['mensaje'] . '<br>';
+            echo '<div style="margin-top: 10px">';
+            echo " Tema abierto por: " . $mensaje['nombre'] .  '</h3><br>';
+    }
+}
+
 ?>
 
-
-
-<footer style="margin-top: 350px">
-    <a href="#">Términos y condiciones de uso</a><br>
-    <label>&reg; IRC</label>
-</footer>
+<p style="margin-top: 50px" align="center"><a href="nuevoMensajePeliculas.php">Nuevo mensaje</a></p>
 </body>
 </html>
