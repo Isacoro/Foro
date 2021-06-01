@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-if(!isset($_SESSION['id_usuario'])){
+if (!isset($_SESSION['id_usuario'])){
     echo "Inicia sesión para agregar un comentario";
-    exit;
+    exit();
 }
 
 ?>
