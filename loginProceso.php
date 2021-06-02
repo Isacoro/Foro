@@ -16,5 +16,6 @@ if($datos === FALSE){
 
 }elseif($sentencia->rowCount() == 1){
     $_SESSION['id_usuario'] = $datos->id_usuario;
+    $_SESSION['nombre'] = $datos->nombre;
     header('Location: foro.php');
 }

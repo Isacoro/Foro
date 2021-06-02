@@ -23,7 +23,8 @@ include "model/conexion.php";
 
 try{
 
-    $sentencia = $bd->prepare('SELECT u.nombre, id_mensaje, id_tema, titulo, mensaje  FROM mensaje m INNER JOIN usuario u on m.id_usuario = u.id_usuario WHERE id_tema = "3"');
+    $sentencia = $bd->prepare('SELECT u.nombre, id_mensaje, m.id_usuario, id_tema, titulo, mensaje  FROM mensaje m 
+    INNER JOIN usuario u on m.id_usuario = u.id_usuario WHERE id_tema = "3"');
     $sentencia->execute();
 
     $resultado = $sentencia->rowCount();
@@ -39,7 +40,12 @@ try{
             echo $mensaje['mensaje'] . '<br>';
             echo '<div style="margin-top: 10px">';
             echo 'Tema abierto por: ' . $mensaje['nombre'] .  '</h3><br>';
-            echo '<a href="eliminarMensaje.php?id_mensaje=' . $mensaje['id_mensaje'] . '">Eliminar</a>';
+
+
+            $idusuario = $mensaje['id_usuario'];
+            $idmensaje = $mensaje['id_mensaje'];
+
+            echo "<a href='eliminarMensaje.php?id_mensaje=$idmensaje&id_usuario=$idusuario'>Eliminar</a>";
 
         }
 }

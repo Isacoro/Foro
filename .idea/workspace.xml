@@ -21,15 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a5947f32-e9dc-493f-ba9f-2d4f6520298b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eliminarMensaje.php" beforeDir="false" afterPath="$PROJECT_DIR$/eliminarMensaje.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foro.php" beforeDir="false" afterPath="$PROJECT_DIR$/foro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginProceso.php" beforeDir="false" afterPath="$PROJECT_DIR$/loginProceso.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuevoMensajeJuegos.php" beforeDir="false" afterPath="$PROJECT_DIR$/nuevoMensajeJuegos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/miforo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/miforo.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temaJuegos.php" beforeDir="false" afterPath="$PROJECT_DIR$/temaJuegos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temaLibros.php" beforeDir="false" afterPath="$PROJECT_DIR$/temaLibros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temaMusica.php" beforeDir="false" afterPath="$PROJECT_DIR$/temaMusica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temaPeliculas.php" beforeDir="false" afterPath="$PROJECT_DIR$/temaPeliculas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +122,8 @@
       <workItem from="1622024587673" duration="381000" />
       <workItem from="1622101020185" duration="6081000" />
       <workItem from="1622475140054" duration="7389000" />
-      <workItem from="1622562675105" duration="7476000" />
+      <workItem from="1622562675105" duration="7632000" />
+      <workItem from="1622649041911" duration="5340000" />
     </task>
     <servers />
   </component>

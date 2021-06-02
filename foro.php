@@ -18,6 +18,11 @@ session_start();
 </header>
 <body>
 
+<?php
+$nombreUsuario = $_SESSION['nombre'];
+echo "<h3 style='margin-top: 20px; margin-left: 20px'>Sesión iniciada por: " . $nombreUsuario . "</h3>";
+?>
+
 <h2 style="text-align: center; margin-top: 50px">Lista de temas</h2>
 
 <div style="padding: 20px; margin: 150px; border-style: double">

@@ -24,14 +24,17 @@ if (isset($_GET['id_mensaje']) && is_numeric($_GET['id_mensaje'])) {
             $statement->bindParam(':id_usuario', $idusuario, PDO::PARAM_INT);
             $statement->execute();
 
-            echo "Mensaje eliminado con éxito";
+            if ($statement->rowCount() == 1){
+                echo "Mensaje eliminado con éxito";
+
+            }else{
+                echo "No puedes borrar un mensaje que no es suyo";
+            }
+
 
         } catch (PDOException $e) {
             echo "Error al eliminar el mensaje" . $e->getMessage();
         }
-
-    }else{
-        echo "No puedes borrar un mensaje que no es suyo";
     }
 }else{
     echo "El mensaje no existe";

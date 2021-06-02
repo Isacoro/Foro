@@ -23,7 +23,7 @@ include "model/conexion.php";
 
 try{
 
-    $sentencia = $bd->prepare('SELECT u.nombre, id_mensaje, u.id_usuario, titulo, mensaje  FROM mensaje m 
+    $sentencia = $bd->prepare('SELECT u.nombre, id_mensaje, m.id_usuario, titulo, mensaje  FROM mensaje m 
     INNER JOIN usuario u on m.id_usuario = u.id_usuario  WHERE id_tema = "2"');
     $sentencia->execute();
 
@@ -34,15 +34,20 @@ try{
 }
 
 echo '<div style="padding: 10px; margin: 50px; margin-bottom: 150px; border-style: double">';
-   while($resultado = $sentencia->fetchAll(PDO::FETCH_ASSOC)){
+   while($resultado = $sentencia->fetchAll(PDO::FETCH_ASSOC)) {
 
-       foreach ($resultado as $mensaje){
+       foreach ($resultado as $mensaje) {
 
            echo '<h3><br>' . $mensaje['titulo'] . '</h3>';
            echo $mensaje['mensaje'] . '<br>';
            echo '<div style="margin-top: 10px">';
-           echo 'Tema abierto por: ' . $mensaje['nombre'] .  '</h3><br>';
-           echo '<a href="eliminarMensaje.php?id_mensaje=' . $mensaje['id_mensaje'] . '&id_usuario=' . $mensaje['id_usuario'] .'">Eliminar</a>';
+           echo 'Tema abierto por: ' . $mensaje['nombre'] . '</h3><br>';
+
+           $idusuario = $mensaje['id_usuario'];
+           $idmensaje = $mensaje['id_mensaje'];
+
+           echo "<a href='eliminarMensaje.php?id_mensaje=$idmensaje&id_usuario=$idusuario'>Eliminar</a>";
+
        }
    }
 ?>
